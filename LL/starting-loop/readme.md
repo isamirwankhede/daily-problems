@@ -7,6 +7,11 @@ Ek linked list diya hai. Hume check karna hai:
 - Agar cycle nahi hai, to `null` return karo
 
 ---
+codestudio - https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628?leftPanelTabValue=SUBMISSION
+
+gfg - https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1
+
+leetcode - https://leetcode.com/problems/linked-list-cycle-ii/
 
 ## 🚀 Approach 1: Optimal (Floyd’s Cycle Detection / Tortoise & Hare)
 
