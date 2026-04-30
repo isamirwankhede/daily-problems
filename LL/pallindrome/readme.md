@@ -2,6 +2,10 @@
 
 ---
 
+leetcode - https://leetcode.com/problems/palindrome-linked-list/
+gfg - https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+codestudio360 - https://www.naukri.com/code360/problems/check-if-linked-list-is-palindrome_985248?leftPanelTabValue=SUBMISSION
+
 ## 📌 What is a Palindrome?
 
 A **Palindrome** is a sequence that reads the same **forward and backward**.
