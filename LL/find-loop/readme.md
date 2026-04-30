@@ -12,10 +12,9 @@ We use **Floyd’s Cycle Detection Algorithm**, also known as the **Tortoise and
 
 ### 🔑 Idea:
 
-* Use two pointers:
-
-  * **Slow pointer** → moves 1 step at a time
-  * **Fast pointer** → moves 2 steps at a time
+- Use two pointers:
+  - **Slow pointer** → moves 1 step at a time
+  - **Fast pointer** → moves 2 steps at a time
 
 ---
 
@@ -23,15 +22,14 @@ We use **Floyd’s Cycle Detection Algorithm**, also known as the **Tortoise and
 
 1. Initialize both `slow` and `fast` to head.
 2. Traverse the list:
+   - Move `slow` by 1 step.
+   - Move `fast` by 2 steps.
 
-   * Move `slow` by 1 step.
-   * Move `fast` by 2 steps.
 3. If `slow == fast` at any point:
+   - Loop exists → return `true`
 
-   * Loop exists → return `true`
 4. If `fast` reaches `null`:
-
-   * No loop → return `false`
+   - No loop → return `false`
 
 ---
 
@@ -58,22 +56,22 @@ private static boolean isLoop(Node head) {
 
 ## ⏱ Time & Space Complexity
 
-* **Time Complexity:** O(n)
-* **Space Complexity:** O(1)
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ---
 
 ## ✅ Advantages
 
-* No extra memory required
-* Efficient for large linked lists
+- No extra memory required
+- Efficient for large linked lists
 
 ---
 
 ## ❗ Important Note
 
-* Repeating values in a linked list **do NOT mean a loop**
-* Loop only exists if a node points back to a previous node
+- Repeating values in a linked list **do NOT mean a loop**
+- Loop only exists if a node points back to a previous node
 
 ---
 
@@ -97,9 +95,9 @@ private static boolean isLoop(Node head) {
 
 ## 📚 Use Cases
 
-* Detect infinite loops in linked lists
-* Memory structure validation
-* Interview questions (very common)
+- Detect infinite loops in linked lists
+- Memory structure validation
+- Interview questions (very common)
 
 ---
 

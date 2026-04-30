@@ -1,3 +1,4 @@
+import org.w3c.dom.NodeList;
 
 class Node {
     int data;
@@ -58,10 +59,45 @@ public class Reverse {
         return prev;
     }
 
+    private static boolean isPalindrome(Node head) {
+        if(head == null || head.next == null) return true;
+        Node slow = head;
+        Node fast = head;
+
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+        }
+
+        Node newHead = reverseList(slow.next);
+
+        Node first = head;
+        Node second = newHead;
+
+        while (second != null) {
+            if(first.data != second.data) {
+                reverseList(newHead);
+                return false;
+
+            }
+            first = first.next;
+            second = second.next;
+
+        }
+
+        reverseList(newHead);
+        return true;
+
+
+
+    } 
+
     public static void main(String[] args) {
-        int arr[] = { 12, 5, 7, 8 };
+        int arr[] = { 1 ,2 , 3 , 3 ,2 ,1 };
         Node head = convertarr2ll(arr);
-        head = reverseList(head);
-        print(head);
+        // head = reverseList(head);
+        // print(head);
+        System.out.println(isPalindrome(head));
     }
 }
