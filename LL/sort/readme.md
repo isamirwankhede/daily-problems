@@ -1,4 +1,11 @@
 # 📘 Merge Sort on Linked List (Hinglish Explanation)
+### gfg : 
+https://www.geeksforgeeks.org/problems/insertion-sort-for-singly-linked-list/1
+### leetcode 
+https://leetcode.com/problems/sort-list/
+### coding ninja
+https://www.naukri.com/code360/problems/sort-linked-list_920517?leftPanelTabValue=SUBMISSION
+
 
 ## 🔥 Problem Statement
 
