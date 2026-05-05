@@ -60,7 +60,7 @@ public class Reverse {
     }
 
     private static boolean isPalindrome(Node head) {
-        if(head == null || head.next == null) return true;
+        if(head == null || head.next == null) return tr
         Node slow = head;
         Node fast = head;
 
