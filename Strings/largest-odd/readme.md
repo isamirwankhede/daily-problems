@@ -1,5 +1,11 @@
 # 1903. Largest Odd Number in String 🚀
 
+### LEETCODE
+https://leetcode.com/problems/largest-odd-number-in-string/
+
+### GFG
+https://www.geeksforgeeks.org/problems/largest-odd-number-in-string/1
+
 ## Problem Statement
 
 Ek string `num` di gayi hai jo ek bada integer represent karti hai.
