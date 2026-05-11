@@ -8,7 +8,7 @@ https://www.geeksforgeeks.org/problems/largest-odd-number-in-string/1
 
 ## Problem Statement
 
-Ek string `num` di gayi hai jo ek bada integer represent karti hai.
+Ek string `num` di gayi hai jo ek bada integer represcent karti hai.
 
 Hume largest-valued **odd integer** return karna hai jo:
 - non-empty ho
