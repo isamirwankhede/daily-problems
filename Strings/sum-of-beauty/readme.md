@@ -161,7 +161,7 @@ public class Solution {
 
 ---
 
-# Important Functions
+# Important Functions   
 
 ## maxFreq()
 

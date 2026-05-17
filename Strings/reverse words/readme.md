@@ -1,6 +1,7 @@
 # 151. Reverse Words in a String 
 leetcode :  https://leetcode.com/problems/reverse-words-in-a-string/description/
-
+GFG : https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
+CODESTUDIO : https://www.naukri.com/code360/problems/reverse-words_696444?leftPanelTabValue=SUBMISSION  
 Given an input string s, reverse the order of the words.
 
 A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
