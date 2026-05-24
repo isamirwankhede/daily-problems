@@ -151,3 +151,5 @@ toh number **balanced** hai.
 ## 🙌 Author
 
 Made for coding practice
+
+MADE BY SAM

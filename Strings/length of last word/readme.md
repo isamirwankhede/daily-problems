@@ -1,5 +1,6 @@
 # calculate the lenght of the last word :
-
+### LEETCODE : 
+https://leetcode.com/problems/length-of-last-word
 
 🔍 Explanation
 ✅ trim() Function
