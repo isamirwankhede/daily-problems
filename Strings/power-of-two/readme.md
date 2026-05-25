@@ -1,6 +1,8 @@
 # 🔥 Power of Two (Java)
 
 ## 📌 Problem Statement
+#LEETCODE - 
+https://leetcode.com/problems/power-of-two/
 
 Given an integer `n`, check whether it is a **power of 2** or not.
 
