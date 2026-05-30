@@ -1,6 +1,31 @@
 # Reverse Only Letters (Java)
 ### Problem Statement
+https://leetcode.com/problems/reverse-only-letters/
 
+```java 
+int n = s.length();
+        char[] chars = s.toCharArray();
+        int i = 0;
+        int j = n - 1;
+
+        while (i <= j) {
+            if (!Character.isLetter(chars[i])) {
+                i++;
+            } else if (!Character.isLetter(chars[j])) {
+                j--;
+            }
+
+            else {
+                char temp = chars[i];
+                chars[i] = chars[j];
+                chars[j] = temp;
+                i++;
+                j--;
+            }
+        }
+
+        return new String(chars);
+```
 Given ek string s, sirf letters ko reverse karna hai
 aur special characters (jaise -, @, #) ko same position par rakhna hai.
 
