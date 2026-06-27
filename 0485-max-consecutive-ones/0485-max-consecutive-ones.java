@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
             if (nums[i] == 1) {
                 currCnt++;
-                maxCnt = Math.max(maxCnt, currCnt);
+                
 
             } else {
                 maxCnt = Math.max(maxCnt, currCnt);
