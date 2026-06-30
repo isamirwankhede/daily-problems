@@ -11,3 +11,28 @@
 <strong>Output: </strong>400
 <strong>Explanation: </strong>arr<sub>3</sub> = 400, which is maximum.</span></span></pre>
 <p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6<br></sup>0 ≤ arr[i] ≤ 10<sup>6<br></sup></span><span style="font-size: 18px;">1 ≤ k ≤ arr.size()</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>OYO Rooms</code>&nbsp;<code>NPCI</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>prefix-sum</code>&nbsp;<code>sliding-window</code>&nbsp;<code>Misc</code>&nbsp;<code>Algorithms</code>&nbsp;
+
+ ### code : 
+```java class Solution {
+    public int maxSubarraySum(int[] arr, int k) {
+        // Code here
+        int n = arr.length;
+        
+        int windowSum =0;
+        
+        for(int i =0 ; i< k ; i++){
+            windowSum += arr[i];
+        }
+        
+        int maxSum = windowSum;
+        
+        for(int j = k ; j < n ; j++){
+            windowSum +=    arr[j];
+            windowSum -=    arr[j-k];
+            maxSum = Math.max(maxSum , windowSum);
+            
+        }
+        
+        return maxSum;
+    }
+} ```
