@@ -19,6 +19,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/isamirwankhede/daily-problems/tree/master/0011-container-with-most-water) |
+| [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
 ## Greedy
 |  |
 | ------- |
@@ -60,4 +61,8 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/isamirwankhede/daily-problems/tree/master/0053-maximum-subarray) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
