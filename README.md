@@ -21,6 +21,7 @@
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/isamirwankhede/daily-problems/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
+| [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
 |  |
@@ -65,10 +66,12 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/isamirwankhede/daily-problems/tree/master/0053-maximum-subarray) |
+| [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 ## String
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
+| [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
