@@ -1,4 +1,6 @@
-"# daily-problems" 
+## DAILY PROBLEMS :
+
+### THIS IS A REPO. WHERE YOU CAN FIND PROBLEMS THAT I SOLVED ON DIFFERENT CODING PLATFORMS
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
