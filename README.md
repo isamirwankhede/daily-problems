@@ -63,6 +63,7 @@
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
+| [2769-find-the-maximum-achievable-number](https://github.com/isamirwankhede/daily-problems/tree/master/2769-find-the-maximum-achievable-number) |
 ## Divide and Conquer
 |  |
 | ------- |
