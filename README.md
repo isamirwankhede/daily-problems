@@ -83,4 +83,9 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/isamirwankhede/daily-problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
+| [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
