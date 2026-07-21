@@ -33,6 +33,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 ## Sliding Window
 |  |
@@ -62,6 +63,7 @@
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
 | [2769-find-the-maximum-achievable-number](https://github.com/isamirwankhede/daily-problems/tree/master/2769-find-the-maximum-achievable-number) |
 ## Divide and Conquer
