@@ -11,6 +11,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/isamirwankhede/daily-problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/isamirwankhede/daily-problems/tree/master/0053-maximum-subarray) |
+| [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/isamirwankhede/daily-problems/tree/master/0238-product-of-array-except-self) |
 | [0485-max-consecutive-ones](https://github.com/isamirwankhede/daily-problems/tree/master/0485-max-consecutive-ones) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
@@ -25,6 +26,7 @@
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/isamirwankhede/daily-problems/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
@@ -68,6 +70,7 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
+| [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
 | [2769-find-the-maximum-achievable-number](https://github.com/isamirwankhede/daily-problems/tree/master/2769-find-the-maximum-achievable-number) |
 ## Divide and Conquer
