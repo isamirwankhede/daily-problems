@@ -18,6 +18,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/isamirwankhede/daily-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/isamirwankhede/daily-problems/tree/master/0724-find-pivot-index) |
+| [0875-koko-eating-bananas](https://github.com/isamirwankhede/daily-problems/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/isamirwankhede/daily-problems/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/isamirwankhede/daily-problems/tree/master/0974-subarray-sums-divisible-by-k) |
 ## Two Pointers
@@ -41,6 +42,7 @@
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
+| [0875-koko-eating-bananas](https://github.com/isamirwankhede/daily-problems/tree/master/0875-koko-eating-bananas) |
 ## Sliding Window
 |  |
 | ------- |
