@@ -50,168 +50,258 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 	<li><code>1 &lt;= days &lt;= weights.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= weights[i] &lt;= 500</code></li>
 </ul>
-🚢 1011. Capacity To Ship Packages Within D Days (Binary Search)
-💡 Problem Samjho
+# 🚢 1011. Capacity To Ship Packages Within D Days (Binary Search)
 
-Hume ek weights[] array diya hai jisme har package ka weight hai.
+## 💡 Problem Samjho
 
-Ek ship hai jiska fixed capacity hoga. Har din hum packages order maintain karke ship me load karenge.
+Hume ek `weights[]` array diya hai jisme har package ka weight hai.
 
-Hume minimum capacity find karni hai jisse saare packages days ke andar ship ho jaye.
+Ek ship hai jiska **fixed capacity** hoga. Har din hum packages **order maintain karke** ship me load karenge.
 
-🤔 Brute Force Idea
+Hume **minimum capacity** find karni hai jisse saare packages `days` ke andar ship ho jaye.
+
+---
+
+## 🤔 Brute Force Idea
 
 Hum har possible capacity try kar sakte the aur check karte ki packages given days me ship hote hain ya nahi.
 
-Lekin capacity bahut badi ho sakti hai (max weight se sum of weights tak), isliye ye approach slow ho jayegi.
+Lekin capacity bahut badi ho sakti hai (`max weight` se `sum of weights` tak), isliye ye approach slow ho jayegi.
 
-🔥 Binary Search Lagao
+---
+
+# 🔥 Binary Search Lagao
 
 Yaha answer ek range me exist karta hai.
 
-Lowest Capacity
+### Lowest Capacity
 
 Ship ki capacity kam se kam largest package ke equal honi chahiye.
 
-low = max(weights)
+```java
+low = max(weights);
+```
 
 Example:
 
+```
 weights = [1,2,3,4,5]
 
 low = 5
+```
 
 Agar capacity 4 hui to weight 5 wala package kabhi ship hi nahi hoga.
 
-Highest Capacity
+---
+
+### Highest Capacity
 
 Agar ship ki capacity sab packages ke total weight ke equal ho,
 
-high = sum(weights)
+```java
+high = sum(weights);
+```
 
 to saare packages ek hi din me chale jayenge.
 
 Example:
 
+```
 weights = [1,2,3,4]
 
 high = 10
-🎯 Binary Search
+```
 
-Ab har baar ek capacity (mid) assume karenge.
+---
 
-mid = (low + high) / 2
+## 🎯 Binary Search
 
-Aur check karenge ki kya is capacity me packages given days ke andar ship ho sakte hain.
+Har baar ek capacity (`mid`) assume karenge.
 
-✅ canShip() Function
+```java
+mid = low + (high - low) / 2;
+```
+
+Ab check karenge ki kya is capacity me packages given days ke andar ship ho sakte hain.
+
+---
+
+## ✅ canShip() Function
 
 Ye function sirf simulation karta hai.
 
 Start with
 
-day = 1
-currentWeight = 0
+```java
+day = 1;
+currentWeight = 0;
+```
 
 Har package ke liye:
 
-Case 1
+### Case 1
 
 Agar package add karne se capacity exceed nahi hoti
 
+```java
 currentWeight += weight;
-Case 2
+```
+
+---
+
+### Case 2
 
 Agar exceed ho jati hai
 
+```java
 day++;
 currentWeight = weight;
+```
 
 Matlab naya din start kar diya.
 
 End me check karenge
 
+```java
 day <= days
+```
 
 Agar true hai to ye capacity sufficient hai.
 
-Binary Search Decision
-Agar ship ho gaya
+---
+
+## Binary Search Decision
+
+### Agar Possible Hai
+
+```java
 canShip == true
+```
 
 Matlab aur bhi chhoti capacity try kar sakte hain.
 
+```java
 high = mid - 1;
-Agar ship nahi hua
+```
+
+---
+
+### Agar Possible Nahi Hai
+
+```java
 canShip == false
+```
 
 Capacity badhani padegi.
 
+```java
 low = mid + 1;
-Dry Run
-weights = [3,2,2,4,1,4]
+```
 
+---
+
+# Dry Run
+
+```
+weights = [3,2,2,4,1,4]
 days = 3
+```
+
+Initial values:
+
+```
 low = 4
 high = 16
-mid = 10
-Day1 -> 3+2+2 = 7
-+4 = 11 (Not Possible)
+```
 
-Day2 -> 4+1+4 = 9
+### mid = 10
+
+```
+Day 1 -> 3 + 2 + 2 = 7
+Next 4 exceed karega
+
+Day 2 -> 4 + 1 + 4 = 9
 
 Total Days = 2
+```
 
-Possible
+✅ Possible
 
 Try smaller capacity.
 
-mid = 6
-Day1 -> 3+2 = 5
+---
 
-Day2 -> 2+4 = 6
+### mid = 6
 
-Day3 -> 1+4 = 5
+```
+Day 1 -> 3 + 2 = 5
+
+Day 2 -> 2 + 4 = 6
+
+Day 3 -> 1 + 4 = 5
 
 Total Days = 3
+```
 
-Possible
+✅ Possible
 
 Try even smaller.
 
-mid = 5
+---
+
+### mid = 5
+
+```
 Need 4 days
+```
 
-Not Possible
+❌ Not Possible
 
-So answer becomes
+Answer = **6**
 
-6
-Time Complexity
+---
 
-Finding low & high
+# Time Complexity
 
+Finding low & high:
+
+```
 O(N)
+```
 
-Binary Search
+Binary Search:
 
-log(sum(weights))
+```
+O(log(sum(weights)))
+```
 
-Checking each capacity
+Checking each capacity:
 
+```
 O(N)
+```
 
-Overall
+Overall:
 
+```
 O(N × log(sum(weights)))
-Space Complexity
+```
+
+---
+
+# Space Complexity
+
+```
 O(1)
-⭐ Key Observation
-Minimum answer = Maximum element
-Maximum answer = Sum of all elements
-Answer range me hai, isliye Binary Search on Answer use kiya.
-Har mid capacity ko canShip() function se verify kiya.
-Agar possible hai to aur chhoti capacity search ki, warna capacity increase ki.
+```
 
-Yahi pattern bahut saare Binary Search on Answer questions me use hota hai.
+---
 
+# ⭐ Key Observation
+
+- Minimum capacity = **Maximum element**
+- Maximum capacity = **Sum of all elements**
+- Answer ek range me exist karta hai, isliye **Binary Search on Answer** use kiya.
+- Har capacity ko `canShip()` function se verify kiya.
+- Agar capacity possible hai to aur chhoti capacity search ki.
+- Agar possible nahi hai to capacity increase ki.
