@@ -22,6 +22,7 @@
 | [0904-fruit-into-baskets](https://github.com/isamirwankhede/daily-problems/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/isamirwankhede/daily-problems/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/isamirwankhede/daily-problems/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1870-minimum-speed-to-arrive-on-time](https://github.com/isamirwankhede/daily-problems/tree/master/1870-minimum-speed-to-arrive-on-time) |
 ## Two Pointers
 |  |
 | ------- |
@@ -45,6 +46,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/isamirwankhede/daily-problems/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/isamirwankhede/daily-problems/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1870-minimum-speed-to-arrive-on-time](https://github.com/isamirwankhede/daily-problems/tree/master/1870-minimum-speed-to-arrive-on-time) |
 ## Sliding Window
 |  |
 | ------- |
