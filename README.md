@@ -11,6 +11,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/isamirwankhede/daily-problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/isamirwankhede/daily-problems/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/isamirwankhede/daily-problems/tree/master/0074-search-a-2d-matrix) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/isamirwankhede/daily-problems/tree/master/0238-product-of-array-except-self) |
 | [0485-max-consecutive-ones](https://github.com/isamirwankhede/daily-problems/tree/master/0485-max-consecutive-ones) |
@@ -44,6 +45,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/isamirwankhede/daily-problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
+| [0074-search-a-2d-matrix](https://github.com/isamirwankhede/daily-problems/tree/master/0074-search-a-2d-matrix) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/isamirwankhede/daily-problems/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/isamirwankhede/daily-problems/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -105,4 +107,8 @@
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/isamirwankhede/daily-problems/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
