@@ -17,6 +17,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0485-max-consecutive-ones](https://github.com/isamirwankhede/daily-problems/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/isamirwankhede/daily-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
@@ -121,8 +122,10 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
