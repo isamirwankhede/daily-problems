@@ -91,6 +91,7 @@
 | ------- |
 | [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
+| [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
 | [2769-find-the-maximum-achievable-number](https://github.com/isamirwankhede/daily-problems/tree/master/2769-find-the-maximum-achievable-number) |
 ## Divide and Conquer
@@ -110,6 +111,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/isamirwankhede/daily-problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
+| [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/isamirwankhede/daily-problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
@@ -126,6 +128,7 @@
 ## Stack
 |  |
 | ------- |
+| [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/isamirwankhede/daily-problems/tree/master/0735-asteroid-collision) |
