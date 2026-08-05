@@ -12,6 +12,7 @@
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/isamirwankhede/daily-problems/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/isamirwankhede/daily-problems/tree/master/0074-search-a-2d-matrix) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/isamirwankhede/daily-problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isamirwankhede/daily-problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/isamirwankhede/daily-problems/tree/master/0238-product-of-array-except-self) |
@@ -90,6 +91,7 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/isamirwankhede/daily-problems/tree/master/0069-sqrtx) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/isamirwankhede/daily-problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0523-continuous-subarray-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0523-continuous-subarray-sum) |
@@ -128,6 +130,7 @@
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/isamirwankhede/daily-problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
