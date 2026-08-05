@@ -51,3 +51,246 @@
 	<li><code>1 &lt;= tokens.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>tokens[i]</code> is either an operator: <code>&quot;+&quot;</code>, <code>&quot;-&quot;</code>, <code>&quot;*&quot;</code>, or <code>&quot;/&quot;</code>, or an integer in the range <code>[-200, 200]</code>.</li>
 </ul>
+
+
+
+# Evaluate Reverse Polish Notation (RPN)
+
+## Intuition
+
+Reverse Polish Notation (RPN) me operators (`+`, `-`, `*`, `/`) apne operands ke **baad** aate hain.
+
+**Example:**
+
+```text
+Input:
+["2","1","+","3","*"]
+
+Normal Expression:
+(2 + 1) * 3 = 9
+```
+
+Is problem ko efficiently solve karne ke liye **Stack** use karte hain. Stack hume latest operands ko store aur retrieve karne me help karta hai.
+
+---
+
+## Approach
+
+1. Create an empty `Stack<Integer>`.
+2. Traverse each token in the input array.
+3. If the token is a number, convert it into an integer and push it into the stack.
+4. If the token is an operator (`+`, `-`, `*`, `/`):
+   - Pop two elements from the stack.
+   - First pop is the **second operand (`b`)**.
+   - Second pop is the **first operand (`a`)**.
+   - Perform the operation `a op b`.
+   - Push the result back into the stack.
+5. After processing all tokens, the only element left in the stack is the final answer.
+
+---
+
+## Dry Run
+
+### Input
+
+```text
+["2","1","+","3","*"]
+```
+
+### Step 1
+
+Token = `2`
+
+```text
+Stack = [2]
+```
+
+### Step 2
+
+Token = `1`
+
+```text
+Stack = [2, 1]
+```
+
+### Step 3
+
+Token = `+`
+
+```java
+b = 1;
+a = 2;
+```
+
+```text
+2 + 1 = 3
+
+Stack = [3]
+```
+
+### Step 4
+
+Token = `3`
+
+```text
+Stack = [3, 3]
+```
+
+### Step 5
+
+Token = `*`
+
+```java
+b = 3;
+a = 3;
+```
+
+```text
+3 * 3 = 9
+
+Stack = [9]
+```
+
+Final Answer:
+
+```text
+9
+```
+
+---
+
+## Why do we write?
+
+```java
+int b = st.pop();
+int a = st.pop();
+```
+
+Stack follows the **LIFO (Last In First Out)** principle.
+
+Example:
+
+```text
+Stack
+
+2
+1 <- Top
+```
+
+First pop:
+
+```java
+b = 1;
+```
+
+Second pop:
+
+```java
+a = 2;
+```
+
+Now the operation should be:
+
+```java
+a - b
+```
+
+i.e.
+
+```text
+2 - 1 = 1
+```
+
+Not
+
+```text
+1 - 2 = -1
+```
+
+Similarly,
+
+```text
+4 2 /
+```
+
+Correct:
+
+```text
+4 / 2 = 2
+```
+
+Wrong:
+
+```text
+2 / 4 = 0
+```
+
+Therefore, for every operator we always perform:
+
+```java
+result = a op b;
+```
+
+where:
+
+- `b = st.pop();` → Second operand
+- `a = st.pop();` → First operand
+
+---
+
+## Complexity Analysis
+
+**Time Complexity:** `O(n)`
+
+Each token is processed exactly once.
+
+**Space Complexity:** `O(n)`
+
+In the worst case, all numbers are stored in the stack.
+
+---
+
+## Code
+
+```java
+class Solution {
+    public int evalRPN(String[] tokens) {
+        Stack<Integer> st = new Stack<>();
+
+        for (String t : tokens) {
+            if (t.equals("+") || t.equals("-") || t.equals("*") || t.equals("/")) {
+
+                int b = st.pop();
+                int a = st.pop();
+
+                if (t.equals("+"))
+                    st.push(a + b);
+                else if (t.equals("-"))
+                    st.push(a - b);
+                else if (t.equals("*"))
+                    st.push(a * b);
+                else
+                    st.push(a / b);
+
+            } else {
+                st.push(Integer.parseInt(t));
+            }
+        }
+
+        return st.peek();
+    }
+}
+```
+
+---
+
+## Key Takeaways
+
+- Use a **Stack** because RPN naturally follows the **LIFO** principle.
+- Push every number into the stack.
+- When an operator is encountered, pop two elements.
+- **First pop = Second operand (`b`)**
+- **Second pop = First operand (`a`)**
+- Always perform **`a op b`**.
+- Push the result back into the stack.
+- The last remaining element in the stack is the final answer.
