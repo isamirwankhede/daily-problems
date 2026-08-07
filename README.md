@@ -42,6 +42,7 @@
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
+| [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 ## Greedy
 |  |
 | ------- |
@@ -119,6 +120,7 @@
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
+| [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 ## String Matching
 |  |
 | ------- |
@@ -138,6 +140,7 @@
 | [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/isamirwankhede/daily-problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/isamirwankhede/daily-problems/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -148,6 +151,7 @@
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/isamirwankhede/daily-problems/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 ## Recursion
 |  |
 | ------- |
