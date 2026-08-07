@@ -121,6 +121,7 @@
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## String Matching
 |  |
 | ------- |
@@ -141,6 +142,7 @@
 | [0735-asteroid-collision](https://github.com/isamirwankhede/daily-problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/isamirwankhede/daily-problems/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Monotonic Stack
 |  |
 | ------- |
