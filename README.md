@@ -7,6 +7,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/isamirwankhede/daily-problems/tree/master/0011-container-with-most-water) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/isamirwankhede/daily-problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/isamirwankhede/daily-problems/tree/master/0035-search-insert-position) |
@@ -81,6 +82,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/isamirwankhede/daily-problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/isamirwankhede/daily-problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/isamirwankhede/daily-problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
