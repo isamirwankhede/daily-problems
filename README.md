@@ -124,6 +124,7 @@
 | [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1544-make-the-string-great](https://github.com/isamirwankhede/daily-problems/tree/master/1544-make-the-string-great) |
 ## String Matching
 |  |
 | ------- |
@@ -145,6 +146,7 @@
 | [0739-daily-temperatures](https://github.com/isamirwankhede/daily-problems/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1544-make-the-string-great](https://github.com/isamirwankhede/daily-problems/tree/master/1544-make-the-string-great) |
 ## Monotonic Stack
 |  |
 | ------- |
