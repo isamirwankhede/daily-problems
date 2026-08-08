@@ -46,3 +46,26 @@
 	<li><code>1 &lt;= s.length &lt;= 100</code></li>
 	<li><code>s</code> contains only lower and upper case English letters.</li>
 </ul>
+
+
+# Make The String Great
+
+## Problem
+
+Hume ek string `s` di gayi hai jisme lowercase aur uppercase English letters hain.
+
+Hume adjacent characters ko remove karna hai agar:
+
+- Dono same alphabet hain.
+- Lekin unka case different hai.
+
+Ye process tab tak continue karna hai jab tak string "good" na ho jaye.
+
+### Example
+
+```text
+Input:
+"leEeetcode"
+
+Output:
+"leetcode"
