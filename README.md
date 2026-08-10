@@ -115,6 +115,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/isamirwankhede/daily-problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/isamirwankhede/daily-problems/tree/master/0005-longest-palindromic-substring) |
+| [0020-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
 | [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/isamirwankhede/daily-problems/tree/master/0394-decode-string) |
@@ -138,6 +139,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/isamirwankhede/daily-problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/isamirwankhede/daily-problems/tree/master/0394-decode-string) |
@@ -165,4 +167,8 @@
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/isamirwankhede/daily-problems/tree/master/0394-decode-string) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
