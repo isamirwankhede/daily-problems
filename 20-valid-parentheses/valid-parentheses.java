@@ -1,31 +1,23 @@
 class Solution {
     public boolean isValid(String s) {
-        StringBuilder sb = new StringBuilder(s);
-        int i =0;
+        Stack< Character> st = new Stack<>();
+        Map<Character , Character> map = new HashMap<>();
+        map.put(')' , '(');
+        map.put('}' , '{');
+        map.put(']' , '[');
 
-        //loop to the second last element coz we are doing check i++;
 
-        while(i < sb.length() -1){
-            char a =sb.charAt(i); 
-            char b =sb.charAt(i+1); 
-            if(
-                (a == '(' && b == ')' ) ||   //check if i char ==  i++ char and they belng to the same family
-                (a == '{' && b == '}') ||  
-                (a == '[' && b == ']' )
-            ){
-                sb.delete( i , i+2); // delete the i an d i+ character why (i+2) coz this is excluded
-                if( i >0) i--; 
-                // if i ==0 " (()" in this condition we delete and there is left we need to move back
+        for(char ch : s.toCharArray()){
+            if(map.containsKey(ch)){
+                if(st.isEmpty() || st.pop() != map.get(ch)){
+                    return false;
+                } 
+            } else {
+                st.push(ch);
             }
-            else{
-                //if not match jut do i++;
-
-                i++;
-            }
-             
         }
 
-        return sb.length()==0;
+        return st.isEmpty();
 
 
     }
