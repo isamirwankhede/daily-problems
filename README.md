@@ -125,6 +125,7 @@
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 | [0796-rotate-string](https://github.com/isamirwankhede/daily-problems/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
+| [0856-score-of-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/isamirwankhede/daily-problems/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/isamirwankhede/daily-problems/tree/master/1544-make-the-string-great) |
@@ -150,6 +151,7 @@
 | [0735-asteroid-collision](https://github.com/isamirwankhede/daily-problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/isamirwankhede/daily-problems/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
+| [0856-score-of-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/isamirwankhede/daily-problems/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/isamirwankhede/daily-problems/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/isamirwankhede/daily-problems/tree/master/1544-make-the-string-great) |
@@ -174,5 +176,6 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0020-valid-parentheses) |
+| [0856-score-of-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/isamirwankhede/daily-problems/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
