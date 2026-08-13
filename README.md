@@ -148,6 +148,7 @@
 | [0032-longest-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0032-longest-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/isamirwankhede/daily-problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0227-basic-calculator-ii) |
+| [0232-implement-queue-using-stacks](https://github.com/isamirwankhede/daily-problems/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/isamirwankhede/daily-problems/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
@@ -182,4 +183,12 @@
 | [0032-longest-valid-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0032-longest-valid-parentheses) |
 | [0856-score-of-parentheses](https://github.com/isamirwankhede/daily-problems/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/isamirwankhede/daily-problems/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Design
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/isamirwankhede/daily-problems/tree/master/0232-implement-queue-using-stacks) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/isamirwankhede/daily-problems/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
