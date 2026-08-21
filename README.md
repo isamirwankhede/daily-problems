@@ -18,6 +18,7 @@
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/isamirwankhede/daily-problems/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/isamirwankhede/daily-problems/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/isamirwankhede/daily-problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0503-next-greater-element-ii) |
@@ -42,6 +43,7 @@
 | [0125-valid-palindrome](https://github.com/isamirwankhede/daily-problems/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isamirwankhede/daily-problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/isamirwankhede/daily-problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/isamirwankhede/daily-problems/tree/master/0844-backspace-string-compare) |
@@ -63,6 +65,7 @@
 | [0074-search-a-2d-matrix](https://github.com/isamirwankhede/daily-problems/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isamirwankhede/daily-problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0240-search-a-2d-matrix-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/isamirwankhede/daily-problems/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/isamirwankhede/daily-problems/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -209,4 +212,16 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/isamirwankhede/daily-problems/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/isamirwankhede/daily-problems/tree/master/0232-implement-queue-using-stacks) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
