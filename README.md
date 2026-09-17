@@ -18,6 +18,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/isamirwankhede/daily-problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/isamirwankhede/daily-problems/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/isamirwankhede/daily-problems/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/isamirwankhede/daily-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/isamirwankhede/daily-problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
@@ -80,6 +81,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/isamirwankhede/daily-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/isamirwankhede/daily-problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/isamirwankhede/daily-problems/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/isamirwankhede/daily-problems/tree/master/0904-fruit-into-baskets) |
@@ -221,6 +223,7 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/isamirwankhede/daily-problems/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/isamirwankhede/daily-problems/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -233,4 +236,16 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/isamirwankhede/daily-problems/tree/master/0287-find-the-duplicate-number) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/isamirwankhede/daily-problems/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
